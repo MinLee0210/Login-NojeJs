@@ -2,9 +2,9 @@
   "name": "login-nojejs",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon app.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/MinLee0210/Login-NojeJs/issues"
   },
-  "homepage": "https://github.com/MinLee0210/Login-NojeJs#readme"
+  "homepage": "https://github.com/MinLee0210/Login-NojeJs#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "express": "^4.18.1",
+    "mongoose": "^6.4.1",
+    "nodemon": "^2.0.18"
+  }
 }
